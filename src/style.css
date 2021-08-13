@@ -118,3 +118,23 @@ p {
 .shadow {
   box-shadow: var(--box-shadow) !important;
 }
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 28px;
+  }
+  .name-introduction,
+  .index-top-page {
+    font-size: 56px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+  .location-introduction {
+    display: none;
+  }
+  .email-link {
+    font-size: 20px;
+  }
+}
